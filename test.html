@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- <link rel="stylesheet" href="/css/stylesheet.css"> -->
+</head>
+<body>
+    <div id="btn2">
+        <button style="background-color: rgb(0, 128, 38); border: 3px solid palevioletred ; border-radius: 25%;">green</button>
+        <button  style="background-color: rgb(128, 0, 49); border: 3px solid palevioletred ; border-radius: 25%;">red</button>
+        <button style="background-color: rgb(128, 115, 0); border: 3px solid palevioletred ; border-radius: 25%;">yello</button>
+        <button style="background-color: rgb(107, 0, 128); border: 3px solid palevioletred ; border-radius: 25%;">pink</button>
+    </div>
+
+  <button id="btn1" onclick="block()" style="width: 70px; height: 40px; border-radius: 37%; border: 3px solid red ;"></button>
+
+    <script>
+        function block() {
+            let btn1 = document.getElementById('btn1');
+            let btn2 =document.getElementById('btn2');
+            if (btn2.style.display!='none') {
+                btn2.style.display='none'
+                
+            }
+            else{
+                btn2.style.display='block'
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Noto+Sans:wght@800&family=Oswald&family=Pacifico&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+.header li{
+    font-family: 'Bebas Neue', cursive;
+
+}
+button .hire{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.baner h1 span{
+    
+    font-family: 'Bebas Neue', cursive;
+}
+.text-center h6{
+    font-family: 'Roboto Slab', serif;
+}
