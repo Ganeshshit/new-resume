@@ -416,12 +416,20 @@ span.devop {
 
 .project-1 {
     box-shadow: 15px 18px 13px -2px rgb(67, 82, 67);
+    display: grid;
     margin-left: 246px;
     background-color: black;
     margin-top: 87px;
 
 }
 
+.project-main1{
+    display: grid;
+    grid-template-columns: 400px 400px;
+   
+    grid-column-gap: 300px;
+    grid-auto-flow: unset;
+}
 .card-dark-mood {
     background-color: white;
     color: rgb(105, 255, 230);
@@ -430,45 +438,56 @@ span.devop {
 }
 
 .project-2 {
-    /* background-color: red; */
 }
-
-.scill {
-    /* height: 100px; */
+.skill-main{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 200px;
+    margin-right: 56px;
+    margin-left: 172px;
+    width: 44vw;
+    height: fit-content;
+}
+.skill {
+    
     margin-top: 45px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 200px;
+    padding-left: 200px;
+    grid-row-gap: 100px;
+    width: max-content;
+    height: max-content;
+    align-items: center;
 
 }
 
 .html {
     width: fit-content;
-    /* background-color: #138808; */
-
-    /* background-color: white; */
-    /* padding-left: 36pc; */
-    position: absolute;
     box-shadow: 2px 1px 10px 5px rgb(49, 46, 46);
-    margin-left: 40px;
 
 }
 
-.css {}
-
+.css {
+    width: fit-content;
+   
+    box-shadow: 2px 1px 10px 5px rgb(49, 46, 46);
+}
+.js{
+    width: fit-content;
+ 
+    box-shadow: 2px 1px 10px 5px rgb(49, 46, 46);
+}
 .img {
     /* background-color: white; */
 }
 
 .php {
-    /* padding-left: 285px; */
+   
     box-shadow: 2px 1px 10px 5px rgb(49, 46, 46);
-    left: 336px;
-    position: relative;
     width: fit-content;
-
-
 }
 
 footer {
-    /* width: 30px; */
     height: 60px;
-    /* background-color: #138808; */
 }
