@@ -6,12 +6,17 @@ function lightFunction() {
   project.classList.toggle("about-mood");
 
   // project.classList
-  setTimeout(() => {
-    audio = new Audio('lamborgini.mp3');
-    // audio.play();
-    stop()
-  }, 100);
+  // setTimeout(() => {
+  //   audio = new Audio('lamborgini.mp3');
+  //   // audio.play();
+  //   stop()
+  // }, 100);
+  // setInterval(() => {
+  //   audio = new Audio('lamborgini.mp3');
+  //   audio.play();
 
+    
+  // }, 100);
   about.classList.toggle("about-mood");
   elment.classList.toggle("green-mood");
   footer.classList.toggle("footer-dark")
