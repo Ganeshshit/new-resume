@@ -8,7 +8,7 @@ function lightFunction() {
   // project.classList
   setTimeout(() => {
     audio = new Audio('lamborgini.mp3');
-    audio.play();
+    // audio.play();
     stop()
   }, 100);
 
